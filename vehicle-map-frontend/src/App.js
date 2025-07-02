@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       axios
-        .get("http://localhost:5000/location")
+        .get("https://assignment-01-jy46.onrender.com/location")
         .then((res) => {
           setPath(res.data);
           setError("");
